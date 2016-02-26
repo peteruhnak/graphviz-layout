@@ -1,0 +1,25 @@
+hook
+applyLayoutToEdges: aCollection
+	| allEdges |
+	true
+		ifTrue: [ ^ self applyLayoutToMultiLineEdges: aCollection ].
+	allEdges := directed , undirected.
+	aCollection
+		do:
+			[ :each | 
+			| c e |
+			e := allEdges at: (self indexFor: each).
+			c := Color random.
+			e shape router points: (self edgeLayoutToRoute: each) allButFirst allButLast.
+			"(self edgeLayoutToRoute: each)
+				do:
+					[ :p | 
+					allEdges anyOne view
+						add:
+							((RTEllipse new
+								color: c;
+								element) translateTo: p) ]."
+			e
+				update;
+				signalUpdate ].
+	allEdges ifNotEmpty: [ allEdges anyOne view signalUpdate ]

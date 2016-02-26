@@ -1,0 +1,16 @@
+{
+	"category" : "GraphViz-Layout",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PeterUhnak 2/26/2016 09:57",
+	"instvars" : [
+		"directed",
+		"undirected",
+		"orthogonal" ],
+	"name" : "RTGraphVizLayout",
+	"pools" : [
+		 ],
+	"super" : "RTAbstractGraphLayout",
+	"type" : "normal" }
