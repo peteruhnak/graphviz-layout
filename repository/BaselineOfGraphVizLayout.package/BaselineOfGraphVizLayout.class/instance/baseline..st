@@ -6,11 +6,19 @@ baseline: spec
 		do:
 			[ spec blessing: #baseline.
 			spec
+				project: 'Athens'
+				with:
+					[ spec
+						className: #ConfigurationOfGraphViz;
+						versionString: #stable;
+						repository: 'http://smalltalkhub.com/mc/Pharo/Athens/main/';
+						loads: 'SVG' ].
+			spec
 				project: 'GraphViz'
 				with:
 					[ spec
 						className: #ConfigurationOfGraphViz;
 						versionString: #stable;
 						repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main/' ].
-			spec package: 'GraphViz-Layout' with: [ spec requires: #('GraphViz') ].
+			spec package: 'GraphViz-Layout' with: [ spec requires: #('GraphViz' 'Athens') ].
 			spec group: 'default' with: #('GraphViz-Layout') ]
