@@ -1,0 +1,14 @@
+{
+	"category" : "BaselineOfGraphVizLayout",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PeterUhnak 2/26/2016 13:03",
+	"instvars" : [
+		 ],
+	"name" : "BaselineOfGraphVizLayout",
+	"pools" : [
+		 ],
+	"super" : "BaselineOf",
+	"type" : "normal" }
