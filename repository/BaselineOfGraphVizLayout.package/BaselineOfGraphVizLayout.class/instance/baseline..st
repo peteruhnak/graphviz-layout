@@ -9,7 +9,7 @@ baseline: spec
 				project: 'Athens'
 				with:
 					[ spec
-						className: #ConfigurationOfGraphViz;
+						className: #ConfigurationOfAthens;
 						versionString: #stable;
 						repository: 'http://smalltalkhub.com/mc/Pharo/Athens/main/';
 						loads: 'SVG' ].
