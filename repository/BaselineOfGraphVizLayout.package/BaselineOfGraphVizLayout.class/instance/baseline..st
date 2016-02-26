@@ -12,5 +12,5 @@ baseline: spec
 						className: #ConfigurationOfGraphViz;
 						versionString: #stable;
 						repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main/' ].
-			spec package: 'GraphViz-Layout' with: #('GraphViz').
+			spec package: 'GraphViz-Layout' with: [ spec requires: #('GraphViz') ].
 			spec group: 'default' with: #('GraphViz-Layout') ]
