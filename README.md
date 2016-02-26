@@ -1,2 +1,3 @@
-# graphviz-layout
-Layout for Roassal using GraphViz
+# GraphViz layout
+
+Layout for [Roassal](http://agilevisualization.com/) using [GraphViz](http://www.graphviz.org/).
