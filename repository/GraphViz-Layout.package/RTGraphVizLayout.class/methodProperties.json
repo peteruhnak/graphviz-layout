@@ -1,17 +1,18 @@
 {
 	"class" : {
-		"exampleHierarchy" : "PeterUhnak 2/26/2016 13:04" },
+		"example2" : "PeterUhnak 2/26/2016 15:09",
+		"exampleHierarchy" : "PeterUhnak 2/26/2016 15:15" },
 	"instance" : {
 		"addEdgesTo:for:" : "PeterUhnak 12/17/2015 03:06",
 		"addNodesTo:for:" : "PeterUhnak 12/17/2015 03:06",
 		"applyLayout:to:" : "PeterUhnak 12/17/2015 03:06",
 		"applyLayoutToBezierEdges:" : "PeterUhnak 2/26/2016 10:39",
 		"applyLayoutToEdges:" : "PeterUhnak 2/26/2016 10:44",
-		"applyLayoutToMultiLineEdges:" : "PeterUhnak 2/26/2016 12:57",
+		"applyLayoutToMultiLineEdges:" : "PeterUhnak 2/26/2016 15:08",
 		"bezierLayoutToControlPoints:" : "PeterUhnak 2/26/2016 10:38",
 		"collinearizeRoute:" : "PeterUhnak 2/26/2016 10:50",
 		"createEmptyGraph" : "PeterUhnak 2/26/2016 10:45",
-		"doExecute:" : "PeterUhnak 2/26/2016 12:58",
+		"doExecute:" : "PeterUhnak 2/26/2016 15:13",
 		"edgeLayoutToRoute:" : "PeterUhnak 2/26/2016 10:50",
 		"edgePathToMultiLineFor:" : "PeterUhnak 2/26/2016 12:57",
 		"inchToPixel:" : "PeterUhnak 12/17/2015 03:22",

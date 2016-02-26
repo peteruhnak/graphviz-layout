@@ -3,8 +3,9 @@ doExecute: els
 	| gv group layout |
 	gv := self createEmptyGraph.
 	group := els asGroup.
+"	1halt."
 	directed isEmpty & undirected isEmpty
-		ifTrue: [ undirected := self edges ].
+		ifTrue: [ undirected := self userDefinedEdges ifNil: [ self edges ] ].
 	self addNodesTo: gv for: els.
 	self addEdgesTo: gv for: group.
 	false

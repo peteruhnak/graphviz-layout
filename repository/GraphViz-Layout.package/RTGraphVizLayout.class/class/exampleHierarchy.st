@@ -1,7 +1,7 @@
 as yet unclassified
 exampleHierarchy
 | b n someClasses allMethodCategories |
-someClasses := RTAbstractRegularTreeLayout withAllSubclasses.
+someClasses := RTShape withAllSubclasses.
 allMethodCategories := (someClasses flatCollect: #protocols) asSet asArray.
 b := RTUMLClassBuilder new.
 b lineShape color: Color black.
@@ -13,4 +13,5 @@ b layout graphVizDot.
 b interaction removeInteractionOfType: RTAbstractDraggable.
 b build.
 
-^ b view @ RTZoomableView.
+b view @ RTZoomableView.
+b view open.
