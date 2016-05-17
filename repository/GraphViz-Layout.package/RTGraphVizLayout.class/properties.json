@@ -8,7 +8,10 @@
 	"instvars" : [
 		"directed",
 		"undirected",
-		"orthogonal" ],
+		"orthogonal",
+		"graph",
+		"configuration",
+		"timeout" ],
 	"name" : "RTGraphVizLayout",
 	"pools" : [
 		 ],

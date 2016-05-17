@@ -1,12 +1,13 @@
 hook
 applyLayoutToEdges: aCollection
 	| allEdges |
-	true
-		ifTrue: [ ^ self applyLayoutToMultiLineEdges: aCollection ].
 	allEdges := directed , undirected.
+	(allEdges anySatisfy: [ :each | each shape isKindOf: RTSVGPathLine ]) | true
+		ifTrue: [ ^ self applyLayoutToPathEdges2: aCollection ].
+	(allEdges anySatisfy: [ :each | each shape isKindOf: RTMultiLine ])
+		ifTrue: [ ^ self applyLayoutToMultiLineEdges: aCollection ].
 	aCollection
-		do:
-			[ :each | 
+		do: [ :each | 
 			| c e |
 			e := allEdges at: (self indexFor: each).
 			c := Color random.

@@ -1,4 +1,4 @@
-as yet unclassified
+examples
 example2
 | firstColumn secondColumn associations firstElements secondElements v eb |
 firstColumn := #('WP A.1' 'WP A.2' 'WP A.3').

@@ -1,4 +1,4 @@
-as yet unclassified
+examples
 exampleHierarchy
 | b n someClasses allMethodCategories |
 someClasses := RTShape withAllSubclasses.

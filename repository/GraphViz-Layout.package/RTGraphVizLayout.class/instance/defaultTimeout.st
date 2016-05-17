@@ -1,0 +1,3 @@
+configuration
+defaultTimeout
+	^ 10
