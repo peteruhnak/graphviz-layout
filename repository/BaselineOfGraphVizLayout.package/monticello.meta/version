@@ -1,5 +1,2 @@
-(name 'BaselineOfGraphVizLayout-PeterUhnak.5' message 'Try to load just GraphViz package.' id 'efadec1f-3765-4b7b-a177-487fe35b992e' date '17 May 2016' time '3:10:37.919285 pm' author 'PeterUhnak' ancestors ((name 'BaselineOfGraphVizLayout-PeterUhnak.4' message 'Wrong configuratoin.
-' id '11ee89cb-9ed8-5607-a3e6-044a2e8bbaea' date '26 February 2016' time '3:39:20 pm' author 'PeterUhnak' ancestors ((name 'BaselineOfGraphVizLayout-PeterUhnak.3' message 'Load also Athens.
-' id '2e3097c4-3afa-5713-b7b7-cb9df017c6db' date '26 February 2016' time '3:35:30 pm' author 'PeterUhnak' ancestors ((name 'BaselineOfGraphVizLayout-PeterUhnak.2' message 'Fixed requires maybe.
-' id '349fea7d-a303-5dc7-937c-cc34ecc26d17' date '26 February 2016' time '1:10:48 pm' author 'PeterUhnak' ancestors ((name 'BaselineOfGraphVizLayout-PeterUhnak.1' message 'Added baseline.
-' id '8565a49f-aa23-5e92-aaa5-c398c0ff0d68' date '26 February 2016' time '1:04:54 pm' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())) stepChildren ())
+(name 'BaselineOfGraphVizLayout-PeterUhnak.6' message 'Do not load configuration.' id 'c3a4708a-d9df-4a41-a039-e0806329cc63' date '10 June 2016' time '11:09:41.268754 am' author 'PeterUhnak' ancestors ((name 'BaselineOfGraphVizLayout-PeterUhnak.5' message 'Try to load just GraphViz package.
+' id 'bc59341c-63a7-54b7-b01c-fcbf18dd0d39' date '17 May 2016' time '3:10:38 pm' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())
