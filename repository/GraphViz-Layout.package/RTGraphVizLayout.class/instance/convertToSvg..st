@@ -3,7 +3,8 @@ convertToSvg: aGraph
 	| baseName dom |
 	baseName := ('/tmp/' , UUID new asString) asFileReference.
 	baseName , 'dot'
-		writeStreamDo: [ :stream | stream nextPutAll: graph generator dotSourceWithLineFeedTerminators ].
+		writeStreamDo:
+			[ :stream | stream nextPutAll: (graph dot copyReplaceAll: String cr with: String lf) ].
 	[ self class
 		system:
 			('"{1}" "{2}"'

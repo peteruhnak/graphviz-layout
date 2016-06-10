@@ -2,25 +2,10 @@ hook
 applyLayoutToEdges: aCollection
 	| allEdges |
 	allEdges := directed , undirected.
-	(allEdges anySatisfy: [ :each | each shape isKindOf: RTSVGPathLine ]) | true
-		ifTrue: [ ^ self applyLayoutToPathEdges2: aCollection ].
-	(allEdges anySatisfy: [ :each | each shape isKindOf: RTMultiLine ])
+	(allEdges allSatisfy: [ :each | each shape isKindOf: RTSVGPathLine ])
+		ifTrue: [ ^ self applyLayoutToPathEdges: aCollection ].
+	(allEdges allSatisfy: [ :each | each shape isKindOf: RTMultiLine ])
 		ifTrue: [ ^ self applyLayoutToMultiLineEdges: aCollection ].
-	aCollection
-		do: [ :each | 
-			| c e |
-			e := allEdges at: (self indexFor: each).
-			c := Color random.
-			e shape router points: (self edgeLayoutToRoute: each) allButFirst allButLast.
-			"(self edgeLayoutToRoute: each)
-				do:
-					[ :p | 
-					allEdges anyOne view
-						add:
-							((RTEllipse new
-								color: c;
-								element) translateTo: p) ]."
-			e
-				update;
-				signalUpdate ].
-	allEdges ifNotEmpty: [ allEdges anyOne view signalUpdate ]
+	(allEdges allSatisfy: [ :each | each shape isKindOf: #DCRTConnection asClass ])
+		ifTrue: [ ^ self applyLayoutToConnectionEdges: aCollection ].
+	self error: 'One of the edges has an unsupported shape type.'

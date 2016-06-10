@@ -1,2 +1,2 @@
-(name 'GraphViz-Layout-PeterUhnak.3' message 'Rewrites and such.. I dunno.' id '62278deb-a616-4205-aa62-4cb4dbf467af' date '17 May 2016' time '3:07:51.787481 pm' author 'PeterUhnak' ancestors ((name 'GraphViz-Layout-PeterUhnak.2' message 'New example + userDefinedEdges.
-' id '9dcc58ad-772f-52f0-b5a8-8a4047bff4ad' date '26 February 2016' time '3:16:46 pm' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())
+(name 'GraphViz-Layout-PeterUhnak.4' message 'Bit of cleanup.' id '0ccb2d95-95f5-4b5e-86bd-4d41c04d7361' date '10 June 2016' time '2:07:50.005012 pm' author 'PeterUhnak' ancestors ((name 'GraphViz-Layout-PeterUhnak.3' message 'Rewrites and such.. I dunno.
+' id '74129d92-3d3f-55be-941c-a184f9a680f3' date '17 May 2016' time '3:08:21 pm' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())
