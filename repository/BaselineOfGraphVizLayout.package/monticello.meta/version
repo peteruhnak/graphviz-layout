@@ -1,2 +1,2 @@
-(name 'BaselineOfGraphVizLayout-PeterUhnak.6' message 'Do not load configuration.' id 'c3a4708a-d9df-4a41-a039-e0806329cc63' date '10 June 2016' time '11:09:41.268754 am' author 'PeterUhnak' ancestors ((name 'BaselineOfGraphVizLayout-PeterUhnak.5' message 'Try to load just GraphViz package.
-' id 'bc59341c-63a7-54b7-b01c-fcbf18dd0d39' date '17 May 2016' time '3:10:38 pm' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())
+(name 'BaselineOfGraphVizLayout-PeterUhnak.7' message 'Load package, not project.' id '33b2e698-0224-4b4f-886a-f6416c1300a2' date '10 June 2016' time '11:11:55.634624 am' author 'PeterUhnak' ancestors ((name 'BaselineOfGraphVizLayout-PeterUhnak.6' message 'Do not load configuration.
+' id 'd154d5a0-2c80-577a-a902-90ffb70bbb23' date '10 June 2016' time '11:10:08 am' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())
