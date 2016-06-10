@@ -1,2 +1,2 @@
-(name 'BaselineOfGraphVizLayout-PeterUhnak.7' message 'Load package, not project.' id '33b2e698-0224-4b4f-886a-f6416c1300a2' date '10 June 2016' time '11:11:55.634624 am' author 'PeterUhnak' ancestors ((name 'BaselineOfGraphVizLayout-PeterUhnak.6' message 'Do not load configuration.
-' id 'd154d5a0-2c80-577a-a902-90ffb70bbb23' date '10 June 2016' time '11:10:08 am' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())
+(name 'BaselineOfGraphVizLayout-PeterUhnak.8' message 'And do not use metarepo.' id 'ad074fc9-50bd-4a4d-88e8-8ce6f4b5dd65' date '10 June 2016' time '11:14:52.382727 am' author 'PeterUhnak' ancestors ((name 'BaselineOfGraphVizLayout-PeterUhnak.7' message 'Load package, not project.
+' id 'f5c27c68-f9e5-5b9c-b23b-2c14dace447c' date '10 June 2016' time '11:12:38 am' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())

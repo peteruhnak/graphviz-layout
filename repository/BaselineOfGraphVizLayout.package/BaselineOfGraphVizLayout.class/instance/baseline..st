@@ -13,6 +13,6 @@ baseline: spec
 						loads: 'SVG' ].
 			spec
 				package: 'GraphViz'
-				with: [ spec repository: 'http://smalltalkhub.com/mc/Pharo/MetaRepoForPharo50/main/' ].
+				with: [ spec repository: 'http://smalltalkhub.com/mc/hernan/GraphViz/main/' ].
 			spec package: 'GraphViz-Layout' with: [ spec requires: #('GraphViz' 'Athens') ].
 			spec group: 'default' with: #('GraphViz-Layout') ]
