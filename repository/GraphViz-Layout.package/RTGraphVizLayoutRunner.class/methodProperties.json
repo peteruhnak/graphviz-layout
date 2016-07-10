@@ -1,0 +1,23 @@
+{
+	"class" : {
+		 },
+	"instance" : {
+		"base" : "PeterUhnak 7/10/2016 11:13",
+		"basename" : "PeterUhnak 7/10/2016 11:07",
+		"cleanUp" : "PeterUhnak 7/10/2016 12:20",
+		"defaultErrorBlock" : "PeterUhnak 7/10/2016 12:09",
+		"defaultTimeout" : "PeterUhnak 7/10/2016 11:03",
+		"finishError" : "PeterUhnak 7/10/2016 12:09",
+		"finishError:" : "PeterUhnak 7/10/2016 12:09",
+		"finishSuccess" : "PeterUhnak 7/10/2016 11:59",
+		"graph:" : "PeterUhnak 7/10/2016 11:02",
+		"initialize" : "PeterUhnak 7/10/2016 11:04",
+		"killProcess:" : "PeterUhnak 7/10/2016 12:01",
+		"onError:" : "PeterUhnak 7/10/2016 11:02",
+		"onSuccess:" : "PeterUhnak 7/10/2016 11:02",
+		"run" : "PeterUhnak 7/10/2016 11:05",
+		"runOnGraph:" : "PeterUhnak 7/10/2016 11:04",
+		"storage" : "PeterUhnak 7/10/2016 11:10",
+		"storage:" : "PeterUhnak 7/10/2016 11:10",
+		"timeout:" : "PeterUhnak 7/10/2016 11:03",
+		"writeGraph" : "PeterUhnak 7/10/2016 12:14" } }

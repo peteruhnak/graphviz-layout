@@ -1,0 +1,19 @@
+{
+	"category" : "GraphViz-Layout-Runners",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PeterUhnak 7/10/2016 12:09",
+	"instvars" : [
+		"onSuccess",
+		"onError",
+		"graph",
+		"timeout",
+		"basename",
+		"storage" ],
+	"name" : "RTGraphVizLayoutRunner",
+	"pools" : [
+		 ],
+	"super" : "RTAbstractGraphLayout",
+	"type" : "normal" }

@@ -1,0 +1,14 @@
+{
+	"category" : "GraphViz-Layout-Runners",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "PeterUhnak 7/10/2016 12:05",
+	"instvars" : [
+		 ],
+	"name" : "RTGraphVizLayoutRunnerFFI",
+	"pools" : [
+		 ],
+	"super" : "RTGraphVizLayoutRunner",
+	"type" : "normal" }
