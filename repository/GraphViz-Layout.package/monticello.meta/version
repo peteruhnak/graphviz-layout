@@ -1,2 +1,2 @@
-(name 'GraphViz-Layout-PeterUhnak.5' message 'Added independent and smarter FFI runner instead of the C/bash layer' id 'c80508b9-ad35-45a4-9765-fa2adde9d7de' date '10 July 2016' time '3:21:52.878738 pm' author 'PeterUhnak' ancestors ((name 'GraphViz-Layout-PeterUhnak.4' message 'Bit of cleanup.
-' id '7c99f9e8-f4ed-5b96-b198-fb0feae99e68' date '10 June 2016' time '2:08:17 pm' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())
+(name 'GraphViz-Layout-PeterUhnak.6' message 'Unused methods.' id '16c9148d-e9d8-45ed-9a69-a3fb4f600303' date '10 July 2016' time '3:37:26.208713 pm' author 'PeterUhnak' ancestors ((name 'GraphViz-Layout-PeterUhnak.5' message 'Added independent and smarter FFI runner instead of the C/bash layer
+' id '203e1bac-0087-5051-84eb-2500ee2d6edd' date '10 July 2016' time '3:22:16 pm' author 'PeterUhnak' ancestors () stepChildren ())) stepChildren ())
