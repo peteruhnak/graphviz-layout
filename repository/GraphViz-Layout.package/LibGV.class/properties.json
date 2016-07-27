@@ -1,0 +1,14 @@
+{
+	"category" : "GraphViz-Layout",
+	"classinstvars" : [
+		 ],
+	"classvars" : [
+		 ],
+	"commentStamp" : "",
+	"instvars" : [
+		 ],
+	"name" : "LibGV",
+	"pools" : [
+		 ],
+	"super" : "FFILibrary",
+	"type" : "normal" }

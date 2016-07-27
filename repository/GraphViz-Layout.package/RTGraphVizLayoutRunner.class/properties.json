@@ -3,7 +3,7 @@
 	"classinstvars" : [
 		 ],
 	"classvars" : [
-		 ],
+		"default" ],
 	"commentStamp" : "PeterUhnak 7/10/2016 12:09",
 	"instvars" : [
 		"onSuccess",

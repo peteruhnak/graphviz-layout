@@ -1,0 +1,9 @@
+{
+	"class" : {
+		"beDefault" : "PeterUhnak 7/27/2016 09:55" },
+	"instance" : {
+		"cleanUp" : "PeterUhnak 7/27/2016 10:16",
+		"killProcess:" : "PeterUhnak 7/27/2016 07:19",
+		"primitiveKill:signal:" : "PeterUhnak 7/27/2016 07:19",
+		"run" : "PeterUhnak 7/27/2016 10:19",
+		"runJobPolling:" : "PeterUhnak 7/27/2016 07:19" } }
