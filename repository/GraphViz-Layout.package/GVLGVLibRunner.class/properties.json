@@ -4,11 +4,11 @@
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "PeterUhnak 7/27/2016 07:20",
+	"commentStamp" : "PeterUhnak 8/6/2016 11:14",
 	"instvars" : [
 		 ],
-	"name" : "RTGVLayoutGVLibRunner",
+	"name" : "GVLGVLibRunner",
 	"pools" : [
 		 ],
-	"super" : "RTGraphVizLayoutRunner",
+	"super" : "GVLRunner",
 	"type" : "normal" }

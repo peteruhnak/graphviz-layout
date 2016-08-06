@@ -1,14 +1,14 @@
 {
-	"category" : "GraphViz-Layout",
+	"category" : "GraphViz-Layout-Tests",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
 	"commentStamp" : "",
 	"instvars" : [
-		 ],
-	"name" : "LibCGraph",
+		"runner" ],
+	"name" : "GVLGVLibRunnerTest",
 	"pools" : [
 		 ],
-	"super" : "FFILibrary",
+	"super" : "TestCase",
 	"type" : "normal" }

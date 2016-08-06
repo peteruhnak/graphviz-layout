@@ -1,4 +1,4 @@
-as yet unclassified
+accessing
 gvContext
 	"gvc.h:extern GVC_t *gvContext(void);"
 

@@ -1,10 +1,10 @@
 {
-	"category" : "GraphViz-Layout",
+	"category" : "GraphViz-Layout-Libs",
 	"classinstvars" : [
 		 ],
 	"classvars" : [
 		 ],
-	"commentStamp" : "",
+	"commentStamp" : "PeterUhnak 8/6/2016 11:17",
 	"instvars" : [
 		"context" ],
 	"name" : "LibGVC",

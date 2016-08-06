@@ -12,7 +12,7 @@
 		"timeout",
 		"basename",
 		"storage" ],
-	"name" : "RTGraphVizLayoutRunner",
+	"name" : "GVLRunner",
 	"pools" : [
 		 ],
 	"super" : "RTAbstractGraphLayout",

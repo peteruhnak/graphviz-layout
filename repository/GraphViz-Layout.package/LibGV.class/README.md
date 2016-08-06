@@ -1,0 +1,1 @@
+I am library interface for libgv.so that performs the layout computation. The implementation is done on C-side, because FFI in Pharo is nightmare to debug.

@@ -1,4 +1,4 @@
-as yet unclassified
+public
 beDefault
 	<script>
 	default := self new

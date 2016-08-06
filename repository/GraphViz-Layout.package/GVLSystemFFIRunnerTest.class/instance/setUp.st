@@ -1,6 +1,6 @@
 running
 setUp
 	super setUp.
-	runner := RTGraphVizLayoutRunnerFFI new.
+	runner := GVLSystemFFIRunner new.
 	runner onSuccess: [ :res | ].
 	runner graph: self newGraph

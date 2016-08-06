@@ -1,7 +1,7 @@
 as yet unclassified
 convertToSvg: aGraph onSuccess: aOneArgBlock
 	| runner |
-	runner := RTGraphVizLayoutRunnerFFI new.
+	runner := GVLSystemFFIRunner new.
 	runner
 		graph: graph;
 		timeout: timeout;
